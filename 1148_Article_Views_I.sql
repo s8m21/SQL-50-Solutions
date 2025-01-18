@@ -1,0 +1,1 @@
+SELECT    author_id AS idFROM    viewsWHERE    author_id = viewer_id AND viewer_id >= 1GROUP BY    author_idORDER BY    id ASC;
